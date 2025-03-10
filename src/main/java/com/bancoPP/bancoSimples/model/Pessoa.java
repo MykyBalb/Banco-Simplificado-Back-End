@@ -10,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Pessoa {
+    private int idPessoa;
     private String nome;
     private String CPF;
     private String eMail;
